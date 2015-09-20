@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Survey feedback is submitted</title>
+	<style type="text/css">
+		#container {
+			font-size: 16px;
+			font-family: Avenir, Verdana;
+			width: 560px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #e1ceb8;
+			padding: 10px;
+		}
+		#feedback {
+			background-color: #eee;
+			padding: 10px;
+		}
+		span {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<p>Dear <span>{{firstname}}</span>, the following survey feedback as you have provided has been submitted. We appreciate the time and effort you took to tell us about your experience.</p>
+		<p id="feedback">{{feedback}}</p>			
+	</div>
+</body>
+</html>
